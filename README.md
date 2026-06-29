@@ -21,3 +21,26 @@ Created this bot in about 45 minutes to make a funny tik tok. With that being sa
 - ## **Step 1**: `git-clone` or download the project from this repo to your machine. CD into the project dir and run `npm install` to install dependencies.
 - ## **Step 2**: In the project directory create a file named `.env` and copy the contents of `.env.example` into the new file. Replace the placeholder TOKEN, GUILD_ID, VOICE_CHANNEL_ID, TEXT_CHANNEL_ID(text channel is optional) with your own. See [this link](https://support.discord.com/hc/en-us/articles/206346498-Where-can-I-find-my-User-Server-Message-ID-) to learn how to get these id's.
 - ## **Step 3**: Start the bot by navigating in CMD prompt or terminal into the project dir and running `node bot.js` or using a process manager like [PM2](https://www.npmjs.com/package/pm2)
+
+---
+
+# **Frogger**
+
+A classic Frogger clone built with Python and pygame, located in [`frogger/`](frogger/).
+
+## **Prerequisites**
+- Python 3.8+
+- [pygame](https://www.pygame.org/) (`pip install -r frogger/requirements.txt`)
+
+## **Running the game**
+```bash
+cd frogger
+pip install -r requirements.txt
+python frogger.py
+```
+
+## **Controls**
+- Arrow keys: hop up/down/left/right
+- Reach the open lily pad slots at the top while dodging traffic and riding logs/turtles across the river
+- `R`: restart after game over
+- `Esc`: quit
